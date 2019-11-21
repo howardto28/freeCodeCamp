@@ -1,0 +1,53 @@
+#main{
+	background-color: #808080;
+}
+#img-caption{
+	margin-left: 120px;
+}
+
+#title{
+	margin-left: 550px;
+}
+#image{
+  max-width: 100%;
+  display: block;
+  margin-left: 100px;
+  display: block;
+
+}
+
+#tribute-info{
+	margin-left: 300px;
+	margin-right: 300px;
+}
+
+#tribute-info-title{
+	font-weight: bold;
+	margin-top: 50px;
+	margin-left: 120px;
+	font-size:25px;
+}
+
+
+#footer{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 17px;
+	margin-left: 270px;
+}
+
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+li{
+	margin: 16px;
+}
+
+#subtitle{
+	margin-left: 560px;
+}
