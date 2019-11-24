@@ -1,0 +1,41 @@
+#title{
+	text-align: center;
+}
+
+#survey-form{
+	background-color: #AED6F1 ;
+	width:550px;
+	padding: 50px;
+	margin-left: auto;
+  	margin-right: auto;
+
+}
+
+#name,#email,#number,#dropdown,#submit{
+	width: 500px;
+	height: 25px;
+	border-radius: 25px;
+}
+
+#submit{
+	background-color: green;
+}
+body{
+	background-image: url('https://media.istockphoto.com/photos/abstract-blue-cyan-background-picture-id995719694?k=6&m=995719694&s=612x612&w=0&h=LKoM86RMnmeJe2DSRV4po_nfCycnGQaJK6v16GB-SWo=');
+}
+
+#name-label{
+	margin-bottom: 10px;
+}
+
+.form-element {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+
+label{
+	display: flex;
+	align-items: center;
+	font-size: 1.125rem;
+	margin-bottom: 0.5rem;
+}

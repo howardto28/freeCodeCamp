@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="Survery.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<h1 id="title">Survey Form</h1>
+
+  
+  <form id="survey-form">
+
+    <div class="form-element">
+      <label id="name-label">Name</label>
+      <input 
+        type="text" 
+        name="name" 
+        placeholder="Enter your name" 
+        id="name" 
+        required>
+    </div>
+  
+    <div class="form-element">
+      <label id="email-label">Email</label>
+      <input 
+        type="email" 
+        name="email" 
+        placeholder="Enter your Email" 
+        id="email" 
+        required>
+    </div>
+
+    <div class="form-element">
+      <label id="number-label">Age (optional)</label>
+      <input 
+        type="number" 
+        name="age" 
+        placeholder="Age" 
+        id="number" 
+        min="0" 
+        max="99">
+    </div>
+  
+    <div class="form-element">
+      <p>Which option best describes you current role?</p>
+    
+      <select id="dropdown">
+        <option value="" disabled selected>Select current role</option>
+        <option value="student">Student</option>
+        <option value="full-time-job">Full Time Job</option>
+        <option value="full-time-learner">Full Time Learner</option>
+        <option value="Prefer-not-to-say"> Prefer not to say</option>
+        <option value="other">Other</option>
+        </select>
+    </div>
+    
+    <div class="form-element">
+      <p>What is your highest level of education?</p>
+      <label>
+        <input 
+          type="radio" 
+          name="education" 
+          value="high-school" 
+          checked>High School Diploma
+      </label>
+      
+      <label>  
+        <input 
+          type="radio" 
+          name="education" 
+          value="bachelor">Bachelor's Degree
+      </label>
+
+      <label>
+        <input 
+          type="radio" 
+          name="education" 
+          value="master">Master Degree
+      </label>
+
+      <label>
+        <input 
+          type="radio" 
+          name="education" 
+          value="doctorate">Doctorate Degree
+      </label>
+
+    </div>
+
+    <div class="form-element">
+
+      <p>Do you have experience with any of the following? (Check all that apply)</p>
+
+      <label>
+        <input 
+          type="checkbox" 
+          name="prject2" 
+          value="html">Html
+      </label>
+
+      <label>
+        <input 
+          type="checkbox" 
+          name="project3" 
+          value="css">Css
+      </label>
+
+      <label>
+        <input 
+          type="checkbox" 
+          name="project4" 
+          value="javascript">Javascript
+      </label>
+
+      <label>
+        <input 
+          type="checkbox" 
+          name="project1" 
+          value="java">Java
+      </label>
+
+      <label>
+        <input 
+          type="checkbox" 
+          name="improve6" 
+          value="python">python
+      </label>
+
+      <label>
+        <input 
+          type="checkbox" 
+          name="improve7" 
+          value="c++">c++
+      </label>
+
+      <label>
+        <input 
+          type="checkbox" 
+          name="improve8" 
+          value="c">c
+      </label>
+
+      <label>
+        <input 
+          type="checkbox" 
+          name="improve5" 
+          value="database">database
+      </label>
+
+      <label>
+        <input 
+          type="checkbox" 
+          name= "improve9" 
+          value="git">git
+      </label>
+
+    </div>
+    
+    <div class="form-element">
+      <p>Anything you want to add?</p>
+      <textarea 
+        rows="7" 
+        cols="50" 
+        placeholder="Enter your comment here...">
+          
+      </textarea>
+    </div>
+
+    <input type="submit" id="submit">
+    
+    
+
+      
+  </form>
+
+</body>
+</html>
