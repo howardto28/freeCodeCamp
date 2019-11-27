@@ -1,0 +1,148 @@
+#header-img{
+	width: 350px;
+	height: 40px;
+	
+}
+
+#nav-bar{
+	float:right;
+	font-size: 20px;	
+	
+}
+
+#nav-bar li{
+	display: inline;
+	padding-right: 50px;
+}
+
+#nav-bar > li > a{
+	color: #2C3E50;
+	font-size: 25px;
+}
+
+#submit{
+	background-color: yellow;
+	width: 120px;
+	height: 30px;
+}
+
+
+
+footer li{
+	display: inline;
+	padding-right: 50px;
+}
+
+#material > p{
+	margin-top: 0;
+
+}
+
+#material > h2{
+	margin-bottom: 0;
+
+}
+
+#shipping > p{
+	margin-top: 0; 
+}
+
+#shipping > h2{
+	margin-bottom: 0;
+}
+
+#quality > p{
+	margin-top: 0;
+}
+
+#quality > h2{
+	margin-bottom: 0;
+}
+
+#features{
+	margin-left: 300px;
+}
+
+#video{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#form{
+	margin-left: 470px;
+	
+
+}
+
+#form input[type = "email"]{
+	width: 300px;
+}
+
+#form input[type = "submit"]{
+	margin-left: 480;
+	margin-top: 20px;
+	width: 200px;
+	margin-left: 50px;
+}
+
+#title{
+	margin-top: 100px;
+	margin-left: 420px
+
+
+}
+
+#material, #shipping{
+	margin-bottom: 80px;
+}
+
+#quality{
+	margin-bottom: 50px;
+}
+
+.flex-container{
+	
+	margin-left: auto;
+	margin-right: auto;
+	list-style: none;
+
+	display: -webit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-flex-flow: row wrap;
+	-justify-content: space-around;
+}
+
+.flex-item{
+	background: #2C3E50;
+	padding: 10px;
+	width: 350px;
+	height: 350px;
+	margin-top: 10px;
+	margin-left: 10px;
+	line-height: 40px;
+	color: white;
+	font-size: x-large;
+	text-align: center;
+
+}
+
+.flex-item-title{
+	background-color: grey;
+}
+
+
+
+.flex-item > ul > li{
+	display: block;
+	
+}
+
+body{
+	background-color: #566573;
+}
+
